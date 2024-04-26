@@ -5,7 +5,10 @@
     <classes>
       <class name="testScripts.GooglePageTest">
         <methods>
-          <include name="javaSearchTest"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="appiumSearchTest"/>
+          <include name="cucumberSearchTest"/>
         </methods>
       </class> <!-- testScripts.GooglePageTest -->
     </classes>
