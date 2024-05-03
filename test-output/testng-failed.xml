@@ -3,14 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testScripts.GooglePageTest">
+      <class name="chromeDevTools.RemoteDriverTest">
         <methods>
-          <include name="setup"/>
-          <include name="teardown"/>
-          <include name="appiumSearchTest"/>
-          <include name="cucumberSearchTest"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- testScripts.GooglePageTest -->
+      </class> <!-- chromeDevTools.RemoteDriverTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
